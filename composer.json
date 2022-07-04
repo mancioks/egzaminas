@@ -1,0 +1,21 @@
+{
+    "name": "mantas/egzaminas",
+    "description": "Kontaktu forma",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mantas",
+            "email": "mantas.ins@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "app/code"
+        }
+    },
+    "require": {
+        "dompdf/dompdf": "^1.2",
+        "vielhuber/dbhelper": "^2.1"
+    }
+}
